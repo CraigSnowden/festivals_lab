@@ -7,7 +7,7 @@ class FestivalsLab
   attr_accessor :access_key, :secret_token
 
   SCHEME = "http"
-  HOST = "api.festivalslab.com"
+  HOST = "api.edinburghfestivalcity.com"
 
   def initialize access_key, secret_token
     @access_key   = access_key
